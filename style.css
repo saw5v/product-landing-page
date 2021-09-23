@@ -1,3 +1,64 @@
-*{
-background-color: aquamarine;
+#page-wrapper{
+    border: 6px solid green;
+    
+}
+
+#header{
+    border: 6px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+#header-img{
+    border: 6px solid yellow;
+    width: 20vw;
+    height: 10vh;
+    opacity: .7;
+    
+
+}
+
+#nav-bar{
+    border: 6px solid blue;
+    display: flex;
+    width: 40vw;
+
+    
+    
+}
+
+.nav-link{
+    text-decoration: none;
+    border: 3px solid brown;;
+    
+    
+}
+
+li{
+    list-style-type: none;
+    display: flex;
+
+
+}
+ul{
+    border: 3px solid orchid;
+    display: flex;
+    justify-content:space-around;
+    width: 40vw;
+
+    
+    
+}
+
+#video{
+    border: 6px solid turquoise;
+    
+}
+
+#form{
+    border: 6px solid slategray;
+    display: flex;
+}
+
+.btn{
+    order: -1;
 }
